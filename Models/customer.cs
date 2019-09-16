@@ -12,6 +12,7 @@ namespace aj618615_MIS4200_SD1.Models
         public string lastName { get; set; }
         public string phone { get; set; }
         public string email { get; set; }
+        public DateTime customerSince { get; set; }
         public ICollection<order> orders { get; set; }
 
     }
